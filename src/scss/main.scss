@@ -1,0 +1,55 @@
+$font-size: 1rem;
+$font-color: #0A0C14;
+$body-color: rgb(211, 211, 174);
+
+html {
+    font-size: $font-size;
+    color: $font-color;
+    background-color: $body-color;
+}
+body{
+    max-width:1440px;
+    height : 700px;
+}
+.left-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.right-section {
+    width: 50%;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    background-color: #00fff2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+footer {
+    height:400px;
+}
+footer p {
+    text-align: center;
+  }
